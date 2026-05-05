@@ -1,27 +1,103 @@
 body {
   font-family: Arial, sans-serif;
-  margin: 0; padding: 0;
+  margin: 0; 
+  padding: 0;
   background: #f4f4f4;
   color: #333;
 }
+
 header {
   background: #004080;
   color: #fff;
   padding: 20px;
   text-align: center;
 }
+
 nav a {
   color: #fff;
   margin: 0 15px;
   text-decoration: none;
 }
+
 main {
   padding: 40px;
   text-align: center;
 }
+
 footer {
   background: #004080;
   color: #fff;
   text-align: center;
   padding: 10px;
+}
+
+/* Hero Section */
+.hero {
+  background: #e6f0ff;
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+/* Why Us Section */
+.why-us {
+  background: #fff;
+  padding: 20px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  max-width: 800px;
+}
+
+/* Call to Action Section */
+.cta {
+  background: #fff3e6;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 8px;
+  max-width: 800px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #004080;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: #0066cc;
+}
+
+/* WhatsApp Floating Button */
+#whatsapp-chat {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: linear-gradient(135deg, #007BFF, #FF7F00);
+  color: white;
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 24px;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  transition: transform 0.2s ease;
+}
+
+#whatsapp-chat:hover {
+  transform: scale(1.1);
+}
+
+/* AI Chat Agent Box */
+#ai-chat {
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  border-radius: 15px;
+  overflow: hidden;
+  background: linear-gradient(135deg, #0056b3, #ff7f00);
 }
